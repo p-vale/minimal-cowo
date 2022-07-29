@@ -1,0 +1,29 @@
+main {
+  max-width: 610px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  column-gap: 50px;
+  row-gap: 25px;
+}
+
+.page-link {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.page-link-img {
+  width: 200px;
+  height: 340px;
+  border: 1px solid black;
+  background-image: url("./img/about.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.page-link-title {
+  display: inline-block;
+  font-weight: 400;
+}
