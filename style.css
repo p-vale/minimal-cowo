@@ -59,3 +59,16 @@ p {
   grid-template-rows: auto;
   gap: 50px;
 }
+
+@media only screen and (max-width: 1400px) {
+  .grid-sections {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .grid-sections {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+  }
+}

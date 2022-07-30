@@ -1,5 +1,5 @@
 main {
-  max-width: 610px;
+  max-width: 710px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
@@ -26,4 +26,21 @@ main {
 .page-link-title {
   display: inline-block;
   font-weight: 400;
+}
+
+@media only screen and (max-width: 720px) {
+  body {
+    align-items: flex-start;
+  }
+
+  main {
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .page-link-img {
+    height: 200px;
+  }
 }
