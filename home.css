@@ -7,6 +7,12 @@ main {
   row-gap: 25px;
 }
 
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
 .page-link {
   display: flex;
   flex-direction: column;
@@ -30,7 +36,13 @@ main {
 
 @media only screen and (max-width: 720px) {
   body {
-    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start; /**otherwise it will overfow top to center elements*/
+  }
+
+  .logo {
+    position: relative;
+    margin: 20px;
   }
 
   main {

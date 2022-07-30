@@ -21,6 +21,10 @@ body {
   letter-spacing: .1rem;
 }
 
+.logo {
+  height: 15px;
+}
+
 h1 {
   text-transform: uppercase;
   font-weight: 300;
