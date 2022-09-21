@@ -58,6 +58,14 @@ p {
   line-height: 150%;
 }
 
+a {
+  color:rgb(57, 81, 54);
+}
+
+a:visited {
+  color:#705837;
+}
+
 .grid-sections {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
