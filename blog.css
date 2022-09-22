@@ -1,0 +1,19 @@
+#blog-box {
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.post-meta {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-meta-date {
+  font-style: italic;
+  font-size: 12px;
+}
+
+hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
