@@ -29,15 +29,27 @@ main {
   background-position: center; 
 }
 
-.page-link-title {
-  display: inline-block;
-  font-weight: 400;
+.page-link-meta {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.show-on-hover {
+  opacity: 0;
+  transform: scaleY(0);
+  transition: all 0.3s linear;
+}
+
+.page-link:hover > div > .show-on-hover {
+  opacity: 1;
+  transform: scaleY(1);
 }
 
 @media only screen and (max-width: 720px) {
   body {
     flex-direction: column;
-    justify-content: flex-start; /**otherwise it will overfow top to center elements*/
+    justify-content: flex-start; /*otherwise it will overfow top to center elements*/
   }
 
   .logo {

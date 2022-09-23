@@ -19,46 +19,16 @@ nav > p {
   position: fixed;
   width: 30vw;
   height: 100vh;
-  background-image: url("./img/about.webp");
+  background-image: url("../img/about.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .page-content {
-  margin-left: 30vw; /**compensate fixed img*/
+  margin-left: 30vw; /*compensate fixed img*/
   width: 60vw;
   padding: 5vw;
-}
-
-.art-tables {
-  margin-top: 25px;
-  display: flex;
-  justify-content: center;
-  gap: 5vw;
-}
-
-.art-tables > section > h4 {
-  text-align: center;
-}
-
-.hide-thead {
-  display: none;
-}
-
-table {
-  min-width: 300px;
-  border: none;
-  border-collapse: collapse;
-}
-
-tr:nth-child(odd) {
-  background-color: rgb(244, 239, 232);
-}
-
-td {
-  padding: 4px;
-  padding-left: 14px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -80,10 +50,5 @@ td {
     flex-direction: column;
     align-items: center;
     padding-top: 80px;
-  }
-
-  .art-tables {
-    margin-top: 50px;
-    flex-direction: column;
   }
 }

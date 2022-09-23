@@ -1,0 +1,38 @@
+.post {
+  max-width: 1000px;
+}
+
+.post-meta {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 1px solid black;
+  margin-bottom: 55px;
+}
+
+.post-meta-title {
+  margin: 0px;
+  text-transform: none;
+}
+
+.post-meta-date {
+  font-style: italic;
+  font-size: 12px;
+}
+
+.post-nav {
+  margin-top: 30px;
+  position: initial;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-nav > a {
+  text-decoration: none;
+}
+
+.post-nav > a:hover {
+  background-color: #f8f6f4;
+}
