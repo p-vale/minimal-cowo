@@ -3,26 +3,17 @@ main {
   height: 100vh;
 }
 
-nav {
+.go-back {
   position: absolute;
   top: 20px;
   left: 20px;
   z-index: 2;
+  text-decoration: none;
 }
 
-nav > p {
+.go-back > p {
   display: inline-block;
   font-size: 20px;
-}
-
-.main-img {
-  position: fixed;
-  width: 30vw;
-  height: 100vh;
-  background-image: url("../img/about.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .page-content {
@@ -34,12 +25,6 @@ nav > p {
 @media only screen and (max-width: 1000px) {
   body {
     flex-direction: column;
-  }
-
-  .main-img {
-    position: relative;
-    width: 100vw;
-    height: 80px;
   }
 
   .page-content {

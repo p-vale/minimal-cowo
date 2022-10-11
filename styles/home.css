@@ -17,16 +17,18 @@ main {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  text-decoration: none;
 }
 
 .page-link-img {
   width: 200px;
   height: 340px;
   border: 1px solid black;
-  background-image: url("./img/about.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; 
+  object-fit: cover;
+}
+
+#left {
+  object-position: 0 0;
 }
 
 .page-link-meta {

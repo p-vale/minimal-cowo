@@ -1,3 +1,13 @@
+.main-img {
+  position: fixed;
+  width: 30vw;
+  height: 100vh;
+  background-image: url("../img/about.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .art-tables {
   margin-top: 25px;
   display: flex;
@@ -32,5 +42,11 @@ td {
   .art-tables {
     margin-top: 50px;
     flex-direction: column;
+  }
+
+  .main-img {
+    position: relative;
+    width: 100vw;
+    height: 80px;
   }
 }

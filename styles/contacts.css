@@ -1,3 +1,13 @@
+.main-img {
+  position: fixed;
+  width: 30vw;
+  height: 100vh;
+  background-image: url("../img/double.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
 .contacts-content {
   display: flex;
   gap: 50px;
@@ -83,7 +93,17 @@ button:hover {
   border-color: rgb(57, 81, 54);
 }
 
+@media only screen and (max-width: 1000px) {
+  .main-img {
+    position: relative;
+    width: 100vw;
+    height: 80px;
+    background-position: center;
+  }
+}
+
 @media only screen and (max-width: 400px) {
+  
   .contacts-content {
     justify-content: flex-start;
     width: 300px; /*to center the content based on the bigger child block*/
